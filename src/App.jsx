@@ -10,7 +10,7 @@ const App = () => {
   const Header = () => {
     return (
       <div>
-        <h1>{course}</h1>
+        <h1>Course: {course}</h1>
       </div>
     );
   };
@@ -18,9 +18,9 @@ const App = () => {
   const Content = () => {
     return(
     <ul>
-      <li>{part1}</li>
-      <li>{part2}</li>
-      <li>{part3}</li>
+      <li>{part1} {exercises1} exercises</li>
+      <li>{part2} {exercises2} exercises</li>
+      <li>{part3} {exercises3} exercises</li>
     </ul>
     );
   };
